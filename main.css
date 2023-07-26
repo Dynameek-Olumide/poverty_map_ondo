@@ -1,18 +1,102 @@
-.section1 {
-  background-color: rgb(252, 251, 237);
-}
+/* section 2  */
 .section2 {
+  position: relative;
   background-color: rgb(255, 243, 235);
 }
+
+.s2 {
+  padding-left: 22px;
+}
+.s2-text {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  font-size: 20px;
+}
+#s2-button {
+  background-color: rgb(247, 151, 39);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  position: absolute;
+  top: 20%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* section 3 design */
 .section3 {
   background-color: rgb(252, 251, 237);
 }
+
+.s3-text {
+  position: absolute;
+  top: 120%;
+  font-size: 20px;
+  padding-left: 22px;
+}
+
+/* section4 layout */
+
 .section4 {
   background-color: rgb(252, 251, 237);
 }
-.section5 {
-  background-color: rgb(252, 251, 237);
+
+.s4-text {
+  position: absolute;
+  top: 229%;
+  width: 100%;
+  font-size: 20px;
+  padding-left: 55%;
 }
+
+/* section5 layout */
+.section5 {
+  background-color: rgb(201, 227, 233);
+}
+
+.s5-text {
+  position: absolute;
+  top: 335%;
+  width: 100%;
+  font-size: 20px;
+  padding-left: 55%;
+}
+
+/* section6  layout */
 .section6 {
-  background-color: rgb(252, 251, 237);
+  background-color: rgb(227, 237, 239);
+}
+.s6-text {
+  position: absolute;
+  top: 445%;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+#s6-button {
+  background-color: rgb(243, 245, 245);
+  color: rgb(4, 3, 3);
+  border-radius: 8px;
+  position: relative;
+  top: 20%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* 
+section 7 layout   */
+
+.s7 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.s7 h3 {
+  color: rgb(128, 178, 53);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
 }
