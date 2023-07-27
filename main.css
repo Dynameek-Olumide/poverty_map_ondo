@@ -1,3 +1,23 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* section1 layoout */
+
+.section1 {
+  position: relative;
+  /* background-color: rgb(255, 243, 235); */
+}
+
+.s1-text {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
 /* section 2  */
 .section2 {
   position: relative;
@@ -32,7 +52,7 @@
   position: absolute;
   top: 120%;
   font-size: 20px;
-  padding-left: 22px;
+  padding-left: 55%;
 }
 
 /* section4 layout */
@@ -99,4 +119,27 @@ section 7 layout   */
   display: flex;
   flex-direction: column;
   text-align: justify;
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #e7eced;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
 }
